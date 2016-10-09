@@ -28,7 +28,7 @@ $(window).load(function(){
   TTT.renderSplash();
 
   TTT.fetchAbout = function () {
-
+    $('#content').load('content/about.html')
   };
 
   TTT.fetchPricing = function () {
