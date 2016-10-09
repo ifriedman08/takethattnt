@@ -51,7 +51,7 @@ $(window).load(function(){
   })
 
   $('a#contact').click(function (event) {
-    console.log('clicked about');
+    console.log('clicked contact');
     TTT.fetchContact();
   })
 
