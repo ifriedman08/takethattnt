@@ -31,8 +31,8 @@ div.logo h3.logo-footer {
 
 section#pricing, section#about {
   text-align: center;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  margin: 10% 25%;
+  /*border-top: 1px solid grey;
+  border-bottom: 1px solid grey;*/
+  margin: 10% auto;
   max-width: 600px;
 }
