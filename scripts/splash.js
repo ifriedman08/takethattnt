@@ -39,9 +39,20 @@ $(window).load(function(){
     })
   }
 
+  TTT.fetchContact = function () {
+    $('#content').load('content/contact.html', function(){
+      $('.navbar-collapse.collapse.in').removeClass('in');
+    })
+  }
+
   $('a#pricing').click(function (event) {
     console.log('clicked pricing');
     TTT.fetchPricing();
+  })
+
+  $('a#contact').click(function (event) {
+    console.log('clicked about');
+    TTT.fetchAbout();
   })
 
   $('a#about').click(function (event) {
