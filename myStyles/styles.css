@@ -29,7 +29,7 @@ div.logo h3.logo-footer {
   text-decoration: underline;
 }
 
-section#pricing {
+section#pricing, section#contact {
   text-align: center;
   margin: 30% auto;
   max-width: 600px;
@@ -42,7 +42,7 @@ section#about {
 }
 
 @media screen and (min-width: 480px) {
-    section#pricing, section#about {
+    section#pricing, section#about, section#contact {
         margin: 6em auto;
     }
 }
