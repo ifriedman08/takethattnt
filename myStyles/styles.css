@@ -29,9 +29,15 @@ div.logo h3.logo-footer {
   text-decoration: underline;
 }
 
-section#pricing, section#about {
+section#pricing {
   text-align: center;
   margin: 30% auto;
+  max-width: 600px;
+}
+
+section#about {
+  text-align: center;
+  margin: 10% auto;
   max-width: 600px;
 }
 
