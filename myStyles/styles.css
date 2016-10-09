@@ -34,4 +34,5 @@ section#pricing, section#about {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   margin: 7em 9em;
+  min-width: 300px;
 }

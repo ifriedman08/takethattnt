@@ -28,10 +28,12 @@ $(window).load(function(){
   TTT.renderSplash();
 
   TTT.fetchAbout = function () {
+    $('.navbar-collapse.collapse.in').removeClass('in');
     $('#content').load('content/about.html')
   };
 
   TTT.fetchPricing = function () {
+    $('.navbar-collapse.collapse.in').removeClass('in');
     $('#content').load('content/pricing.html')
   }
 
