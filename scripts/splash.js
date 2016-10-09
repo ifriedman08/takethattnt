@@ -52,7 +52,7 @@ $(window).load(function(){
 
   $('a#contact').click(function (event) {
     console.log('clicked about');
-    TTT.fetchAbout();
+    TTT.fetchContact();
   })
 
   $('a#about').click(function (event) {
