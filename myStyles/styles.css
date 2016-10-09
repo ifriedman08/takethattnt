@@ -43,7 +43,7 @@ section#about {
 
 @media screen and (min-width: 480px) {
     section#pricing, section#about {
-        margin: 2em;
+        margin: 6em auto;
     }
 }
 
