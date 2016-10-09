@@ -1,6 +1,7 @@
 $(window).load(function(){
 
   TTT.renderSplash = function(){
+    $('#content').empty();
     var logo = $('<div class="logo">');
     var logoFooter = $('<div class="logo footer">');
     var fist1 = $('<img class="fist1" style="visibility:hidden" src="images/TAKE.png">');
@@ -34,9 +35,11 @@ $(window).load(function(){
 
   $('a#pricing').click(function (event) {
     console.log('clicked pricing');
+    TTT.fetchPricing();
   })
 
   $('a.navbar-brand').click(function (event) {
     console.log('clicked brand');
+    TTT.renderSplash();
   })
 })
