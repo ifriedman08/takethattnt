@@ -1,0 +1,30 @@
+* {
+  font-family: baskerville;
+  color: black !important;
+}
+
+div.logo {
+  text-align: center;
+}
+
+div.logo img.fist1, img.fist2 {
+  margin-top: 7%;
+  width: 30%;
+  min-width: 140px;
+}
+div.logo h3.logo-footer {
+  min-width: 250px;
+  width: 50%;
+  text-align: right;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar a:hover {
+  background-color: grey;
+}
+
+.nav > li > a:hover {
+  text-decoration: underline;
+}
