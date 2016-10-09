@@ -27,7 +27,7 @@ $(window).load(function(){
 
   TTT.renderSplash();
 
-  TTT.renderPricing = function () {
+  TTT.fetchAbout = function () {
 
   };
 
@@ -38,6 +38,11 @@ $(window).load(function(){
   $('a#pricing').click(function (event) {
     console.log('clicked pricing');
     TTT.fetchPricing();
+  })
+
+  $('a#about').click(function (event) {
+    console.log('clicked about');
+    TTT.fetchAbout();
   })
 
   $('a.navbar-brand').click(function (event) {
