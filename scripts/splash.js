@@ -28,13 +28,13 @@ $(window).load(function(){
   TTT.renderSplash();
 
   TTT.fetchAbout = function () {
-    $('.navbar-collapse.collapse.in').removeClass('in');
     $('#content').load('content/about.html')
+    $('.navbar-collapse.collapse.in').removeClass('in');
   };
 
   TTT.fetchPricing = function () {
-    $('.navbar-collapse.collapse.in').removeClass('in');
     $('#content').load('content/pricing.html')
+    $('.navbar-collapse.collapse.in').removeClass('in');
   }
 
   $('a#pricing').click(function (event) {
