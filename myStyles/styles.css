@@ -29,7 +29,7 @@ div.logo h3.logo-footer {
   text-decoration: underline;
 }
 
-#pricing {
+section#pricing {
   text-align: center;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
