@@ -23,7 +23,9 @@ $(window).load(function(){
     setTimeout(function(){
       tnt.animate({'opacity': 1}, 1000)
     }, 1000);
-  }();
+  };
+
+  TTT.renderSplash();
 
   TTT.renderPricing = function () {
 
