@@ -29,9 +29,7 @@ $(window).load(function(){
   };
 
   TTT.fetchPricing = function () {
-    $.ajax('content/pricing.html', function (data) {
-      console.log(data);
-    })
+    $('#content').load('content/pricing.html')
   }
 
   $('a#pricing').click(function (event) {
